@@ -3,14 +3,12 @@
 /* more headers goes there */
 #include <stdio.h>
 /* betty style doc for function main goes there */
-
 /**
  * main - prints a string on the console
  *
  * Return: 0 when all goes well
  *
  */
-
 int main(void)
 {
         int n;
