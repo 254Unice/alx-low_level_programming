@@ -2,9 +2,9 @@
 
 
 /**
- * main - prints the letters of the alphabets
+ * main - Entry point
  *
- * Return: 0
+ * Return: 0 (Success/correct)
  */
 
 int main(void)
