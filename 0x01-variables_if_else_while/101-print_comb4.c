@@ -1,41 +1,4 @@
-[7:45 pm, 11/04/2022] Sam ALX: #include <stdio.h>
-
-/**
- * main - Prints numbers between 00 to 89.
- *
- * Return: Always 0 (Success)
- */
-int main(void)
-{
-int i, e;
-
-i = 48;
-e = 48;
-while (e < 58)
-{
-i = 48;
-while (i < 58)
-{
-if (e != i && e < i)
-{
-putchar(e);
-putchar(i);
-if (i == 57 && e == 56)
-{
-break;
-}
-putchar(',');
-putchar(' ');
-}
-i++;
-}
-e++;
-}
-putchar('\n');
-return (0);
-}
-[7:51 pm, 11/04/2022] Sam ALX: 101-print_comb4.c
-[7:51 pm, 11/04/2022] Sam ALX: #include <stdio.h>
+#include <stdio.h>
 
 /**
  * main - prints all possible different combinations of three digits
