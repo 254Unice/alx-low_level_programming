@@ -1,24 +1,28 @@
 #include <stdio.h>
 
-
 /**
- * main - prints the letters of the alphabets
- *
- * Return: 0
- */
+*main - Entry point
+*
+*Return: Always 0 (success)
+*/
 
 int main(void)
 {
-	 char letter;
 
-        for (letter = 'a'; letter <= 'z'; letter++)
-        {
-        putchar(letter);
-        }
-        for (letter = 'A'; letter <= 'Z'; letter++)
-        {
-        putchar(letter);
-        }
-        putchar('\n');
-        return (0);
+char lower_case;
+char upper_case;
+
+for (lower_case = 'a'; lower_case <= 'z'; lower_case++)
+{
+putchar(lower_case);
+}
+
+for (upper_case = 'A'; upper_case <= 'Z'; upper_case++)
+{
+putchar(upper_case);
+}
+
+putchar('\n');
+
+return (0);
 }
