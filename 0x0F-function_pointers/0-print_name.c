@@ -5,9 +5,9 @@
   *@name:name
   *f:function
   */
-void print name(char *name, void (*f)(char *))
+void print name (char *name, void (*f)(char *))
 {
-	if (name == NULL|| f == NULL
+	if(name == NULL|| f == NULL
 			return;
 			f(name);
 }
